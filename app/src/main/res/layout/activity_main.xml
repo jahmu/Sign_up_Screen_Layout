@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/doctor"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/blue_scale">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginRight="81dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/blue"
+                android:text="LOG IN"
+
+
+                android:textColor="@color/white" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginLeft="81dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/blue"
+                android:text="SIGN UP"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="42dp"
+            android:paddingRight="43dp"
+            android:paddingLeft="43dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cross"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="21sp"
+                android:textColorHint="@color/white"
+                android:hint="Patient Plus"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp">
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginBottom="26dp"
+                android:background="@color/white"
+                android:hint=" Name"
+                android:textColorHint="@color/red" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginBottom="26dp"
+                android:background="@color/white"
+                android:hint=" Email"
+                android:textColorHint="@color/red" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginBottom="26dp"
+                android:background="@color/white"
+                android:hint=" Patient ID"
+                android:textColorHint="@color/red" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginBottom="26dp"
+                android:background="@color/white"
+                android:hint=" Password"
+                android:textColorHint="@color/red" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginBottom="26dp"
+                android:background="@color/white"
+                android:hint=" Re-enter Password"
+                android:textColorHint="@color/red" />
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="61dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/red"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="normal"
+                android:text="SIGN UP"
+                android:background="@drawable/rounded_corner"
+
+                android:textSize="21sp" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
